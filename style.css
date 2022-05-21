@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize !important;
+    text-decoration: none !important;
+}
+a{
+    list-style: none !important;
+}
+.logos{
+    font-size: 30px !important;
+}
+
+.nav-ul{
+    margin-left: auto !important;
+    padding-right: 30px;
+    
+}
+.navbar-brand{
+    padding-left: 20px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+color: #4F6DF5 !important; 
+letter-spacing: -0.02em;
+}
+.nav-links{
+    color: #4F6DF5 !important ;
+}
+
+.sec-text{
+    font-size: 250%;
+    color: #1C1C25 !important;
+    font-weight: bold;
+    font-size: 50px !important;
+
+}
+.ser-text{
+    font-size: 50px !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+}
+.card-parents{
+    display: flex !important;
+    justify-content: space-around ! ;
+    flex-wrap: wrap !important;
+}
+.card{
+    width: 300px;
+    height: 410px;
+    border-radius: 20px !important;
+    margin: auto !important;
+    /* flex: 1  !important; */
+
+    
+}
+.card-parents :hover{
+    transform: translateY(-15px);
+    }
+.card-icon{
+    text-align: center;
+    /* padding: 25px; */
+}
+
+.div-redi{
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+
+.port-img{
+    width: 350px;
+    height: auto;
+}
+.review-img{
+    text-align: center;
+    margin: auto !important;
+    
+}
+.review-card{
+    width: 300px !important;
+    margin: auto;
+    height: 425px !important;
+     border-radius: 20px !important;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+}
+.review-para{
+    margin-top: -15px !important;
+    
+}
+
+.f-c{
+    padding: 25px;
+    color: #F0F0F0 !important;
+}
+ul{
+    list-style: none;
+    padding-left: 0px !important;
+
+}
+li{
+    padding: 0px;
+    line-height: 45px !important;
+    
+}
+
+.social-i{
+
+    margin-right: 15px !important;
+}
+.footer-bottom{
+    background-color: #1F1F1F;
+    margin: 0px !important;
+    border: 2px solid black;
+    display: flex !important;
+    justify-content: space-between !important;
+    
+}
+.a-tag{
+    color: #F0F0F0 !important;
+    list-style: none;
+}
+
+
+/* responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.second-sec{
+    width: 100%;
+
+}
+.port-col{
+    width: 100%;
+}
+.card-parents{
+    width: 100%;
+    margin: auto !important;
+}
+.port-col{
+    width: 100%;
+    margin: auto !important;
+    
+}
+
+.social-d{
+    padding: 0px !important;
+    margin-left: 10px !important;
+}
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card-parents{
+        width: 100%;
+        margin: auto !important;
+    }
+    
+    .port-col{
+        width: 100%;
+        margin: auto !important;
+    }
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .port-col{
+        width: 100%;
+    }
+    
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .port-col{
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
