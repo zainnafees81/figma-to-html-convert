@@ -48,7 +48,7 @@ letter-spacing: -0.02em;
 }
 .card-parents{
     display: flex !important;
-    justify-content: space-around ! ;
+    justify-content: space-between !important ;
     flex-wrap: wrap !important;
 }
 .card{
@@ -80,12 +80,17 @@ letter-spacing: -0.02em;
     border-radius: 50%;
     margin-top: 20px;
 }
-
+.port-col{
+    text-align: center !important;
+    
+}
 
 
 .port-img{
     width: 350px;
     height: auto;
+    text-align: center !important;
+    /* margin: auto !important;  */
 }
 .review-img{
     text-align: center;
@@ -146,24 +151,27 @@ li{
     width: 100%;
 
 }
-.port-col{
-    width: 100%;
-}
+
 .card-parents{
     width: 100%;
     margin: auto !important;
 }
-.port-col{
-    width: 100%;
-    margin: auto !important;
-    
-}
+
+
 
 .social-d{
     padding: 0px !important;
     margin-left: 10px !important;
 }
-
+.port-col{
+    text-align: center !important;
+    margin: auto !important;    
+}
+.port-img{
+    width: 100% !important;
+    text-align: center !important;
+    margin: auto !important;
+}
 
 
 
@@ -175,30 +183,47 @@ li{
         width: 100%;
         margin: auto !important;
     }
-    
     .port-col{
-        width: 100%;
+        text-align: center !important;
+        margin: auto !important;    
+    }
+    .port-img{
+        width: 100% !important;
+        text-align: center !important;
         margin: auto !important;
     }
+    /* .card-parents{
+        width: 450px !important;
+        margin: auto !important;
+        text-align: center !important;
+       
+    } */
+    
+    
 
     
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .port-col{
-        width: 100%;
+    .f-c{
+        width: 100% !important;
     }
-    
+       
+    .social-d{
+        width: 100% !important;
+    }
     
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .port-col{
-        width: 100%;
-    }
+    
+    
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    
+}
