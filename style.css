@@ -172,6 +172,15 @@ li{
     text-align: center !important;
     margin: auto !important;
 }
+.footer-bottom{
+    width: 100% !important;
+    
+}
+.a-tag{
+    text-align: start !important;
+    width: 50% !important;
+    padding: 0px !important;
+}
 
 
 
